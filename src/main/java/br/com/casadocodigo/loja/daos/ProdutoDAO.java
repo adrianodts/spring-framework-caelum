@@ -24,5 +24,11 @@ public class ProdutoDAO {
 	{
 		return manager.createQuery("Select distinct p from Produto p join fetch p.prices").getResultList();
 	}
+
+	public Produto find(Integer id) {
+		// TODO Auto-generated method stub
+		return manager.createQuery("Select distinct p from Produto p join fetch p.prices "
+				+ "where p.id = :id", Produto.class).setParameter("id", id).getSingleResult();
+	}
 	
 }

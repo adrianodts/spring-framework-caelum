@@ -1,0 +1,15 @@
+br/com/casadocodigo/loja/controller/HomeController.class
+br/com/casadocodigo/loja/validations/ProductValidator.class
+br/com/casadocodigo/loja/models/ShoppingItem.class
+br/com/casadocodigo/loja/conf/AppWebConfiguration.class
+br/com/casadocodigo/loja/controller/ProductController.class
+br/com/casadocodigo/loja/conf/JPAConfiguration.class
+br/com/casadocodigo/loja/model/TipoLivro.class
+br/com/casadocodigo/loja/controller/ShoppingCartController.class
+br/com/casadocodigo/loja/models/Produto.class
+br/com/casadocodigo/loja/daos/ProdutoDAO.class
+br/com/casadocodigo/loja/conf/ServletSpringMVC.class
+br/com/casadocodigo/loja/models/ShoppingCart.class
+br/com/casadocodigo/loja/infra/FileSaver.class
+br/com/casadocodigo/loja/controller/ProductsController.class
+br/com/casadocodigo/loja/models/Preco.class
