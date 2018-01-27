@@ -110,7 +110,11 @@
 							<input type="submit" class="checkout" name="checkout" value="Finalizar compra" id="checkout" />
 						</form:form>
 					</td>
-					<td></td>
+					<td>
+						<form:form	servletRelativeAction="/products/list" method="get" cssClass="container">
+							<input type="submit" class="checkout" name="continuar" value="Continuar comprando" id="checkout" />
+						</form:form>
+					</td>
 					<td class="numeric-cell">${shoppingCart.total}</td>
 				</tr>
 			</tfoot>
