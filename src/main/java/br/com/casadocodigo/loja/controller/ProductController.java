@@ -4,6 +4,7 @@ import javax.transaction.Transactional;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.WebDataBinder;
@@ -60,6 +61,7 @@ public class ProductController {
 //	}
 	
 	@RequestMapping(value="products/save", method=RequestMethod.POST)
+	@CacheEvict(value="lastProducts", allEntries=true)
 	@Transactional
 	public ModelAndView save(MultipartFile arquivo,
 			@Valid Produto produto, 

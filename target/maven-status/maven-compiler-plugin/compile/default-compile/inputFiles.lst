@@ -1,6 +1,8 @@
 /home/spring7310/casadocodigo/src/main/java/br/com/casadocodigo/loja/validations/ProductValidator.java
 /home/spring7310/casadocodigo/src/main/java/br/com/casadocodigo/loja/controller/ProductsController.java
 /home/spring7310/casadocodigo/src/main/java/br/com/casadocodigo/loja/controller/HomeController.java
+/home/spring7310/casadocodigo/src/main/java/br/com/casadocodigo/loja/models/Role.java
+/home/spring7310/casadocodigo/src/main/java/br/com/casadocodigo/loja/controller/AuthController.java
 /home/spring7310/casadocodigo/src/main/java/br/com/casadocodigo/loja/controller/ProductController.java
 /home/spring7310/casadocodigo/src/main/java/br/com/casadocodigo/loja/conf/JPAConfiguration.java
 /home/spring7310/casadocodigo/src/main/java/br/com/casadocodigo/loja/infra/FileSaver.java
@@ -11,5 +13,11 @@
 /home/spring7310/casadocodigo/src/main/java/br/com/casadocodigo/loja/models/ShoppingCart.java
 /home/spring7310/casadocodigo/src/main/java/br/com/casadocodigo/loja/models/ShoppingItem.java
 /home/spring7310/casadocodigo/src/main/java/br/com/casadocodigo/loja/conf/AppWebConfiguration.java
+/home/spring7310/casadocodigo/src/main/java/br/com/casadocodigo/loja/conf/SecurityConfiguration.java
+/home/spring7310/casadocodigo/src/main/java/br/com/casadocodigo/loja/daos/UserDAO.java
+/home/spring7310/casadocodigo/src/main/java/br/com/casadocodigo/loja/models/PaymentData.java
+/home/spring7310/casadocodigo/src/main/java/br/com/casadocodigo/loja/viewresolver/JsonViewResolver.java
 /home/spring7310/casadocodigo/src/main/java/br/com/casadocodigo/loja/daos/ProdutoDAO.java
+/home/spring7310/casadocodigo/src/main/java/br/com/casadocodigo/loja/models/User.java
 /home/spring7310/casadocodigo/src/main/java/br/com/casadocodigo/loja/conf/ServletSpringMVC.java
+/home/spring7310/casadocodigo/src/main/java/br/com/casadocodigo/loja/conf/SpringSecurityFilterConfiguration.java

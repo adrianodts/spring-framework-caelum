@@ -20,6 +20,10 @@ public class ShoppingCart implements Serializable {
 	public void add(ShoppingItem item) {
 		items.put(item, getQuantity(item) + 1);
 	}
+	
+	public void clear() {
+		items.clear();
+	}
 
 	public Integer getQuantity(ShoppingItem item) {
 		if (!items.containsKey(item)) {

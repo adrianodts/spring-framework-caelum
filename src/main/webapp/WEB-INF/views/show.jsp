@@ -100,7 +100,7 @@
 		</header>
 		
 		<section class="buy-options clearfix">
-			<form action="${shoppingCartUrl}" method="post" class="container">
+			<form:form	servletRelativeAction="${shoppingCartUrl}" method="post" cssClass="container">
 				<input type="hidden" value="${produto.id}" name="idProduto"/>
 				<ul id="variants" class="clearfix">
 					<c:forEach items="${produto.prices}" var="preco">
@@ -117,7 +117,7 @@
 				</ul>
 
 				<input type="submit" class="submit-image icon-basket-alt" alt="Compre agora" title="Compre agora '${produto.titulo}'!" value="comprar"/>
-			</form>
+			</form:form>
 		</section>
 
 		<div class="container">
@@ -149,7 +149,7 @@
 			<div id="collections-footer">
 				<!-- cdc-footer -->
 				<p class="footer-title">Coleções de Programação</p>
-				<ul class="footer-text-links">
+				<ul class="footer-text-links">shopping
 					<li>
 						<a href="/collections/livros-de-java">Java</a>
 					</li>
